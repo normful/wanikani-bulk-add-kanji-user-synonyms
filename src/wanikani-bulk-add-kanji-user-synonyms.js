@@ -2,7 +2,7 @@
 // @name        WaniKani Bulk Add Kanji User Synonyms
 // @namespace   normful
 // @description A script to bulk add a preset list of user synonyms for all kanji using the WaniKani Open Framework (wkof) by Robin Findley (@rfindley)
-// @version     1.0.2
+// @version     1.0.3
 // @include     https://www.wanikani.com/
 // @include     https://www.wanikani.com/dashboard
 // @copyright   2018+, Norman Sue
@@ -18,6 +18,12 @@ window.__wanikani_bulk_add_kanji_user_synonyms.SYNONYMS = {"一":["one"],"二":[
 
 (function(global) {
   'use strict';
+
+  if (!window.wkof) {
+    alert('WaniKani Bulk Add Kanji User Synonyms script requires Wanikani Open Framework.\nYou will now be forwarded to installation instructions.');
+    window.location.href = 'https://community.wanikani.com/t/instructions-installing-wanikani-open-framework/28549';
+    return;
+  }
 
   var DISABLE_ALL_LOGGING = true;
 
