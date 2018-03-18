@@ -1,0 +1,17 @@
+{
+  "name": "wanikani-bulk-add-kanji-user-synonyms",
+  "version": "1.0.0",
+  "description": "WaniKani user script to bulk add a preset list of user synonyms for all kanji.",
+  "main": "src/wanikani-bulk-add-kanji-user-synonyms.js",
+  "author": "Norman Sue <normful@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bluebird": "^3.5.1",
+    "es6-promise": "^4.2.4",
+    "isomorphic-fetch": "^2.2.1",
+    "prettier": "^1.11.1"
+  },
+  "scripts": {
+    "prettier": "find src -name '*.js' | xargs -I{} ./node_modules/.bin/prettier --write --single-quote {}"
+  }
+}
