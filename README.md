@@ -21,4 +21,4 @@ Navigate to your dashboard (i.e. either <https://www.wanikani.com/> or <https://
 
 You can open your browser console to see what the script is doing. 
 
-Example console output, when I ran this at WaniKani level 19:
+[Here](https://github.com/normful/wanikani-bulk-add-kanji-user-synonyms/blob/master/output.txt) is the console output, when I ran this on my account at WaniKani level 19.
