@@ -15,10 +15,14 @@ If you have any pre-existing user synonyms, the script attempts to preserve them
 1. Install @rfindley 's WaniKani Open Framework according to [these instructions](https://github.com/rfindley/wanikani-open-framework#installation).
 2. Install this script from Greasyfork at https://greasyfork.org/en/scripts/39692-wanikani-bulk-add-kanji-user-synonyms
 
-##  Usage
+## Usage
 
 Navigate to your dashboard (i.e. either <https://www.wanikani.com/> or <https://www.wanikani.com/dashboard>) and the script will automatically update your user synonyms.
 
 You can open your browser console to see what the script is doing. 
 
 [Here](https://github.com/normful/wanikani-bulk-add-kanji-user-synonyms/blob/master/output.txt) is the console output, when I ran this on my account at WaniKani level 19.
+
+## Changelog
+
+- 1.0.0: Initial release
