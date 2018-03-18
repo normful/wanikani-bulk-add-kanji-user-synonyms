@@ -123,7 +123,9 @@ window.__wanikani_bulk_add_kanji_user_synonyms.SYNONYMS = {"一":["one"],"二":[
   }
 
   function processItems(items) {
-    // For debugging
+    // For debugging so that you can type
+    // window.__wanikani_bulk_add_kanji_user_synonyms.items
+    // in the console and see what the items are
     global.items = items;
 
     var PROMISE_BATCH_SIZE = 5;
