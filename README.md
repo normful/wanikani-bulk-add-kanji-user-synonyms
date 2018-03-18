@@ -1,5 +1,7 @@
 # WaniKani Bulk Add Kanji User Synonyms
 
+![House kanji with user synonyms automatically added](screenshots/house.png)
+
 ## Description
 
 This [WaniKani](https://www.wanikani.com) script automatically adds user synonyms to all your unlocked kanji using meaning synonyms collected from Jim Breen's [WWWJDIC](http://nihongo.monash.edu/cgi-bin/wwwjdic) database.
