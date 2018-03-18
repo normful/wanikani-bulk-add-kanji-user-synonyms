@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name        WaniKani Bulk Add Kanji User Synonyms
 // @namespace   normful
-// @description A script to bulk add a preset list of user synonyms for all kanji using the WaniKani Open Framework (wkof) by Robin Findley (@rfindley)
-// @version     1.0.3
+// @description Automatically adds user synonyms to all your unlocked kanji using meaning synonyms collected from Jim Breen's WWWJDIC database.
+// @version     1.0.4
 // @include     https://www.wanikani.com/
 // @include     https://www.wanikani.com/dashboard
 // @copyright   2018+, Norman Sue
