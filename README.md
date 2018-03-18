@@ -13,7 +13,7 @@ If you have any pre-existing user synonyms, the script attempts to preserve them
 ## Installation
 
 1. Install @rfindley 's WaniKani Open Framework according to [these instructions](https://github.com/rfindley/wanikani-open-framework#installation).
-2. Install this script from Greasyfork.
+2. Install this script from Greasyfork at https://greasyfork.org/en/scripts/39692-wanikani-bulk-add-kanji-user-synonyms
 
 ##  Usage
 
