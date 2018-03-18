@@ -19,6 +19,8 @@ window.__wanikani_bulk_add_kanji_user_synonyms.SYNONYMS = {"一":["one"],"二":[
 (function(global) {
   'use strict';
 
+  var DISABLE_ALL_LOGGING = true;
+
   // Set this to true when debugging this script.
   var DEBUG = false;
 
@@ -34,15 +36,27 @@ window.__wanikani_bulk_add_kanji_user_synonyms.SYNONYMS = {"一":["one"],"二":[
   var Log = {
     prefix: "[WKBAKUS] ",
     debug: function(string) {
+      if (DISABLE_ALL_LOGGING) {
+        return;
+      }
       console.debug(Log.prefix + string);
     },
     info: function(string) {
+      if (DISABLE_ALL_LOGGING) {
+        return;
+      }
       console.log(Log.prefix + string);
     },
     warn: function(string) {
+      if (DISABLE_ALL_LOGGING) {
+        return;
+      }
       console.warn(Log.prefix + string);
     },
     error: function(string) {
+      if (DISABLE_ALL_LOGGING) {
+        return;
+      }
       console.error(Log.prefix + string);
     },
   };
