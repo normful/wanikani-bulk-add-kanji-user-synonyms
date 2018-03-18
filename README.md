@@ -19,7 +19,9 @@ If you have any pre-existing user synonyms, the script attempts to preserve them
 
 Navigate to your dashboard (i.e. either <https://www.wanikani.com/> or <https://www.wanikani.com/dashboard>) and the script will automatically update your user synonyms.
 
-You can open your browser console to see what the script is doing. 
+## Debugging
+
+You can set `DISABLE_ALL_LOGGING` to `false` and open your browser console to see what the script is doing. 
 
 [Here](https://github.com/normful/wanikani-bulk-add-kanji-user-synonyms/blob/master/output.txt) is the console output, when I ran this on my account at WaniKani level 19.
 
