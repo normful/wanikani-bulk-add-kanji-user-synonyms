@@ -29,3 +29,4 @@ You can set `DISABLE_ALL_LOGGING` to `false` and open your browser console to se
 
 - 1.0.0: Initial release
 - 1.0.1: Default to not log anything
+- 1.0.2: Fix handling of ampersands in WWWJDIC synonyms

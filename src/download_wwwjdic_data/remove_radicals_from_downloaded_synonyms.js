@@ -11,7 +11,12 @@ Object.keys(synonyms).forEach((kanji) => {
     return notRadical && hasNoHTML;
   });
 
-  allFilteredSynonyms[kanji] = filteredSynonyms;
+  const synonymsWithoutAmpersands = filteredSynonyms.map((synonym) => {
+    const regExp = /&/g;
+    return synonym.replace(regExp, 'and');
+  });
+
+  allFilteredSynonyms[kanji] = synonymsWithoutAmpersands;
 });
 
 console.log(JSON.stringify(allFilteredSynonyms, null, 2));
