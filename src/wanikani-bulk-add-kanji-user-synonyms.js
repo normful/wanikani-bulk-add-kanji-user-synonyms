@@ -87,6 +87,10 @@ window.__wanikani_bulk_add_kanji_user_synonyms.PREFERRED_SYNONYMS = {
         return Promise.resolve();
       });
 
+  // ---------------------------------------------------------------------------------
+  // Helper functions
+  // ---------------------------------------------------------------------------------
+
   // Taken from https://github.com/Nicktho/batch-promises/blob/master/index.js
   function batchPromises(batchSize, thenArr, fn) {
     return Promise.resolve(thenArr)
@@ -125,6 +129,10 @@ window.__wanikani_bulk_add_kanji_user_synonyms.PREFERRED_SYNONYMS = {
       return !rest.has(x);
     });
   }
+
+  // ---------------------------------------------------------------------------------
+  // Promise-returning functions used in the Promise chain initiated by wkof
+  // ---------------------------------------------------------------------------------
 
   function fetchItemsWithItemDataModule() {
     // Refer to ItemData source for options:
