@@ -2,7 +2,7 @@
 // @name        WaniKani Bulk Add Kanji User Synonyms
 // @namespace   normful
 // @description Automatically adds user synonyms to all your unlocked kanji using meaning synonyms collected from Jim Breen's WWWJDIC database.
-// @version     1.0.5
+// @version     1.0.6
 // @include     https://www.wanikani.com/
 // @include     https://www.wanikani.com/dashboard
 // @updateURL   https://raw.githubusercontent.com/normful/wanikani-bulk-add-kanji-user-synonyms/master/src/wanikani-bulk-add-kanji-user-synonyms.js

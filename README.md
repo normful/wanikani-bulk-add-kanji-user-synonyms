@@ -35,3 +35,4 @@ You can set `DISABLE_ALL_LOGGING` to `false` and open your browser console to se
 - 1.0.3: Redirect to forum page if wkof is not installed.
 - 1.0.4: Update description
 - 1.0.5: Update script metadata
+- 1.0.6: Tweak WKOF user installation prompt code
