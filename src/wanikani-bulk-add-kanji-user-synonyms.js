@@ -27,8 +27,10 @@ window.__wanikani_bulk_add_kanji_user_synonyms.PREFERRED_SYNONYMS = {
   'use strict';
 
   if (!window.wkof) {
-    alert('WaniKani Bulk Add Kanji User Synonyms script requires Wanikani Open Framework.\nYou will now be forwarded to installation instructions.');
-    window.location.href = 'https://community.wanikani.com/t/instructions-installing-wanikani-open-framework/28549';
+    var script_name = 'WaniKAni Bulk Add Kanji User Synonyms';
+    if (confirm(script_name+' requires Wanikani Open Framework.\nDo you want to be forwarded to the installation instructions?')) {
+      window.location.href = 'https://community.wanikani.com/t/instructions-installing-wanikani-open-framework/28549';
+    }
     return;
   }
 
